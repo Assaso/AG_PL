@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/p_no"
+        android:text="@string/pkmn_number"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/p_no"
+        android:layout_marginTop="10dp"
+        android:id="@+id/p_name"
+        android:text="@string/pkmn_name"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/p_name"
+        android:layout_marginTop="10dp"
+        android:id="@+id/quality_list"
+        android:textAlignment="center">
+
+    </Spinner>
+
+</RelativeLayout>

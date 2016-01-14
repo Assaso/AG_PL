@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AG_PL</string>
+    <string name="pkmn_number">No.</string>
+    <string name="pkmn_name">Name</string>
 </resources>
